@@ -4,7 +4,7 @@ import conta.model.Conta;
 
 public interface ContaRepository {
 	// CRUD da Conta
-	public void procurarpoNumero(int numero);
+	public void procurarPoNumero(int numero);
 	public void listarTodas();
 	public void cadastrar(Conta conta);
 	public void atualizar(Conta conta);
